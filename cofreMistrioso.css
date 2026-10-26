@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: rgb(46, 39, 39);
+    color: white;
+    padding: 30px;
+}
+
+.arena{
+    position: relative;
+    height: 300px;
+    border:2px dashed #c5b385;
+    border-radius: 15px;
+}
+
+button{
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#cofre1{
+    top: 40%;
+    left: 25%;
+    background: #c79898;
+}
+
+#cofre2{
+    top: 40%;
+    left: 60%;
+    background: #c79898;
+}
+
+#cofre3{
+    top: 70%;
+    left: 40%;
+    background: #c79898;
+}
+
+#jogarNovamente{
+    position: static;
+    margin-top: 20px;
+    background: white;
+}
